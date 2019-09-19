@@ -3,13 +3,13 @@ Created by Konshin Andrew
 */
 public class Fuel {
     public static void main(String[] args) {
-        int estimatedDistance = 100;
+        int ConditionalDistance = 100;
         double fuelConsumption = 9.6;
         int currentFuelVolume = 35;
 
-        /*Создал переменную resultingDistance типа int и сделал сужение типов,
-        так как требовалось приблизительная оценка расстояния.*/
-        int resultingDistance = (int) (currentFuelVolume/fuelConsumption * estimatedDistance);
+        /*Created a variable "resultingDistance" of type "int" and narrowed the types,
+        since an approximate estimate of the distance was required.*/
+        int resultingDistance = (int) (currentFuelVolume/fuelConsumption * ConditionalDistance);
         System.out.println(resultingDistance + " км");
     }
 }
