@@ -7,8 +7,6 @@ public class Fuel {
         double fuelConsumption = 9.6;
         int currentFuelVolume = 35;
 
-        /*Created a variable "resultingDistance" of type "int" and narrowed the types,
-        since an approximate estimate of the distance was required.*/
         int resultingDistance = (int) (currentFuelVolume/fuelConsumption * ConditionalDistance);
         System.out.println(resultingDistance + " km");
     }
